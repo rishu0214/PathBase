@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Fragments.BagFragment"
+    android:background="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_view"
+            android:text="Pack Your Bag"
+            android:textColor="@color/lavender"
+            android:textSize="30dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/title_view"
+        />
+
+
+</RelativeLayout>

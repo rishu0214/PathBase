@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_note"
+        android:title="Notes"
+        android:icon="@drawable/baseline_edit_note_24" />
+    <item android:id="@+id/bottom_bag"
+        android:title="BackPack"
+        android:icon="@drawable/baseline_backpack_24" />
+    <item android:id="@+id/bottom_map"
+        android:title="E-Tracker"
+        android:icon="@drawable/baseline_wallet_24" />
+    <item android:id="@+id/bottom_weather"
+        android:title="Weather"
+        android:icon="@drawable/baseline_wb_twighlight_24" />
+
+</menu>

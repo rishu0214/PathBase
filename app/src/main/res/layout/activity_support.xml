@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    tools:context=".Views.Activities.SupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <LinearLayout
+            android:id="@+id/question1_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/faq_question_background"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/question1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know more about Note App"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+
+                <ImageView
+                    android:id="@+id/q1dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_down_24"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+                <ImageView
+                    android:id="@+id/q1du"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_up_24"
+                    android:visibility="gone"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="A note app is a digital tool designed for creating, organizing, and storing text-based information, helping users capture ideas, tasks, or reminders efficiently.
+                \n\nNote App Features -
+                \n\n◘ Text Creation - Create a new note instantly with a single tap or shortcut.
+                \n\n◘ Text Editing - Basic formatting options like bold, italics, and bullet points.
+                \n\n◘ Search Functionality - Quickly find notes using keywords or filters.
+                \n\n◘ Offline Access - Create and view notes without internet connectivity.
+                \n\n◘ Pin and Unpin - Pin important notes to keep them at the top.
+                \n  - Unpin notes to return them to the main list.
+                \n  - Maintain consistent pinned notes across devices.
+                \n  - Visually distinguish pinned notes with markers or icons."
+                android:textColor="@color/white"
+                android:padding="10dp" />
+        </LinearLayout>
+        <!-- Add more questions here -->
+
+        <!-- Question 2 -->
+        <LinearLayout
+            android:id="@+id/question2_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/faq_question_background"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/question2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know more about BackPack"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+
+                <ImageView
+                    android:id="@+id/q2dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_down_24"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+                <ImageView
+                    android:id="@+id/q2du"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_up_24"
+                    android:visibility="gone"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="A backpack app helps you organize and reminds you of essential items to pack whenever you go out, ensuring you never forget anything important.
+                \n\nBackPack App Features -
+                \n\n◘ Default Data Integration - Preload essential categories and items to give users a ready-to-use experience on first launch.
+                \n\n◘ Item Management - Create and display categorized lists of items (e.g., clothing, personal care, technology).
+                \n\n◘ Search Functionality - Quickly find specific items or lists using a search bar.
+                \n\n◘ Custom Lists: Allow users to create personalized packing lists tailored to their needs.
+                \n\n◘ Reset to Default: Reset all data to the app’s default configuration for a fresh start.
+                \n\n◘ Delete Default Data: Remove preloaded default data to customize the app further.
+                "
+                android:textColor="@color/white"
+                android:padding="10dp" />
+        </LinearLayout>
+        <!-- Add more questions here -->
+
+        <!-- Question 3 -->
+        <LinearLayout
+            android:id="@+id/question3_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/faq_question_background"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/question3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know more about Expense Tracker"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+
+                <ImageView
+                    android:id="@+id/q3dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_down_24"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+                <ImageView
+                    android:id="@+id/q3du"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_up_24"
+                    android:visibility="gone"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="A expense tracker app helps users manage their finances by tracking income, expenses, and providing insights through visual stats and reports.
+                \n\nExpense Tracker App Features -
+                \n\n◘ Income and Expense Tracking - Easily log and categorize income and expenses to keep track of financial activities.
+                \n\n◘ Custom Categories - Create and manage personalized categories for income and expenses based on user needs.
+                \n\n◘ Spending Insights - View detailed insights into spending habits, helping users identify trends and areas for improvement.
+                \n\n◘ Visual Statistics - Display visual graphs and charts to represent income, expenses, and savings over time.
+                \n\n◘ Expense Analysis - Show detailed breakdowns of expenses to help users understand where their money is going.
+                \n\n◘ Financial Reports - Generate reports on monthly, weekly, or yearly finances to analyze trends.
+                "
+                android:textColor="@color/white"
+                android:padding="10dp" />
+        </LinearLayout>
+        <!-- Add more questions here -->
+
+
+        <!-- Question 4 -->
+        <LinearLayout
+            android:id="@+id/question4_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/faq_question_background"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/question4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know more about Weather App"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+
+                <ImageView
+                    android:id="@+id/q4dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_down_24"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+                <ImageView
+                    android:id="@+id/q4du"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_arrow_drop_up_24"
+                    android:visibility="gone"
+                    android:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="UseAppTint" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="A weather app provides real-time weather updates, forecasts, and alerts based on your location or selected cities.
+                \n\nWeather App Features -
+                \n\n◘ Real-time Weather Updates - Display current temperature, humidity, wind speed, and conditions.
+                \n\n◘ Weather Alerts - Send notifications for severe weather conditions like storms or extreme temperatures.
+                \n\n◘ Location-based Forecast - Automatically detect and display weather based on the user's location.
+                "
+                android:textColor="@color/white"
+                android:padding="10dp" />
+        </LinearLayout>
+        <!-- Add more questions here -->
+
+    </LinearLayout>
+</ScrollView>
