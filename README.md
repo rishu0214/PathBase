@@ -1,1 +1,1 @@
-This app makes your journey easier 
+This app makes your journey easier.
