@@ -1,7 +1,6 @@
 package com.traveleasy.pathbase.Constants;
 
 public class MyConstants {
-
     public static final String MY_SELECTIONS = "My Selections";
     public static final String TRUE_STRING = "true";
     public static final String FALSE_STRING = "false";
